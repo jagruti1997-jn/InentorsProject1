@@ -1,0 +1,40 @@
+//login apis
+register:-
+url:http://localhost:3001/login/signup
+data:email,password
+
+login
+url:http://localhost:3001/login/signin
+data:email,password
+
+//request api
+url:http://localhost:3001/api/request
+data:ItemName,ItemQuantity,CategoryID,CategoryName
+
+update request:-
+url:http://localhost:3001/api/request/:id
+data:file,vendorName,status
+
+//workers request
+url:http://localhost:3001/api/workers
+data:Name,date,status
+
+//vendor request
+url:http://localhost:3001/api/vendor
+data:Name,description
+
+
+//site request
+url:http://localhost:3001/api/sites
+data:Name,description
+
+//category request
+url:http://localhost:3001/api/category
+data:Name,description
+
+//user request
+url:http://localhost:3001/api/user
+data:FirstName,LastName,Email,Contact,Role,description
+    
+
+	
